@@ -1,0 +1,129 @@
+.link-2-curso,
+.link-2-curso * {
+  box-sizing: border-box;
+}
+.link-2-curso {
+  background: #7dd3fc;
+  height: 840px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-15 {
+  background: #bfdbfe;
+  width: 410px;
+  height: 408px;
+  position: absolute;
+  left: 290px;
+  top: 228px;
+}
+.portugol-uma-linguagem-de-programa-o-did-tica-que-utiliza-uma-sintaxe-baseada-na-l-ngua-portuguesa-seu-principal-objetivo-ensinar-l-gica-de-programa-o-para-iniciantes-eliminando-a-complexidade-de-linguagens-como-python-java-ou-c-ele-funciona-como-um-pseudoc-digo-algoritmo-estruturado-ou-seja-um-modelo-simplificado-de-c-digo-que-permite-a-escrita-de-algoritmos-de-forma-estruturada-e-compreens-vel-sem-a-necessidade-de-aprender-uma-sintaxe-rigorosa-embora-n-o-seja-uma-linguagem-de-programa-o-propriamente-dita-o-portugol-uma-excelente-ferramenta-para-desenvolver-o-pensamento-l-gico-sendo-amplamente-utilizado-no-ensino-de-programa-o {
+  color: #020202;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 306px;
+  top: 238px;
+  width: 385px;
+  height: 281px;
+}
+.rectangle-12 {
+  background: #facc15;
+  border-radius: 30px;
+  width: 117px;
+  height: 25px;
+  position: absolute;
+  left: 574px;
+  top: 598px;
+}
+.voltar {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 610px;
+  top: 601px;
+}
+.rectangle-3 {
+  background: #bfdbfe;
+  width: 700px;
+  height: 220px;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+}
+.ol-fulano {
+  color: #020202;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 169px;
+  top: 118px;
+  width: 150px;
+  height: 44px;
+}
+.seja-bem-vindos-a-plataforma-de-cursos {
+  color: #020202;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 169px;
+  top: 162px;
+  width: 466px;
+  height: 45px;
+}
+.frame {
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  left: 574px;
+  top: 42px;
+  overflow: visible;
+}
+.image-5 {
+  border-radius: 1000px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.image-2 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 243px;
+  height: 182px;
+  position: absolute;
+  left: 18px;
+  top: 263px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.rectangle-152 {
+  background: #6e6792;
+  width: 700px;
+  height: 91px;
+  position: absolute;
+  left: 0px;
+  top: 749px;
+}
+.criado-por-gustavo-porto {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 294px;
+  top: 776px;
+}

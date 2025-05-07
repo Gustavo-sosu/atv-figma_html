@@ -1,0 +1,126 @@
+.login,
+.login * {
+  box-sizing: border-box;
+}
+.login {
+  background: #7dd3fc;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  height: 830px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.login2 {
+  color: #060606;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  position: absolute;
+  left: 253px;
+  top: 256px;
+}
+.rectangle-18 {
+  background: #d9d9d9;
+  width: 393px;
+  height: 45px;
+  position: absolute;
+  left: 154px;
+  top: 405px;
+}
+.rectangle-19 {
+  background: #d9d9d9;
+  width: 393px;
+  height: 45px;
+  position: absolute;
+  left: 154px;
+  top: 487px;
+}
+.nome-do-usuario {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 170px;
+  top: 410px;
+}
+.esqueci-a-senha {
+  color: #060606;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 439px;
+  top: 555px;
+}
+.n-o-tem-conta-fa-a-seu-cadastro {
+  color: #060606;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 150px;
+  top: 713px;
+}
+.lembre-se {
+  color: #060606;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 155px;
+  top: 561px;
+}
+.senha {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 170px;
+  top: 492px;
+}
+.rectangle-20 {
+  background: #facc15;
+  width: 244px;
+  height: 54px;
+  position: absolute;
+  left: 228px;
+  top: 613px;
+}
+.entrar {
+  color: #060606;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 300px;
+  top: 619px;
+}
+.rectangle-21 {
+  background: #d9d9d9;
+  width: 22px;
+  height: 23px;
+  position: absolute;
+  left: 122px;
+  top: 564px;
+  aspect-ratio: 22/23;
+}
+.image-5 {
+  border-radius: 1000px;
+  width: 169px;
+  height: 169px;
+  position: absolute;
+  left: 270px;
+  top: 58px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}

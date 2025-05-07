@@ -1,0 +1,355 @@
+.curso,
+.curso * {
+  box-sizing: border-box;
+}
+.curso {
+  background: #1e3a8a;
+  border-style: solid;
+  border-color: #374151;
+  border-width: 1px;
+  height: 1460px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-2 {
+  background: #bfdbfe;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 360px;
+  top: 251px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-3 {
+  background: #bfdbfe;
+  width: 700px;
+  height: 220px;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-1 {
+  background: #bfdbfe;
+  width: 700px;
+  height: 126px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-4 {
+  background: #000000;
+  border-radius: 30px;
+  width: 177px;
+  height: 34px;
+  position: absolute;
+  left: 35px;
+  top: 600px;
+}
+.rectangle-5 {
+  background: #000000;
+  border-radius: 30px;
+  width: 177px;
+  height: 34px;
+  position: absolute;
+  left: 264px;
+  top: 600px;
+}
+.rectangle-7 {
+  border-radius: 0px;
+  width: 177px;
+  height: 34px;
+  position: absolute;
+  left: 493px;
+  top: 600px;
+  overflow: visible;
+}
+.ol-fulano {
+  color: #374151;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 170px;
+  top: 119px;
+  width: 150px;
+  height: 44px;
+}
+.seja-bem-vindos-a-ao-informatitchology {
+  color: #374151;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 170px;
+  top: 171px;
+  width: 398px;
+  height: 39px;
+}
+.curso2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 101px;
+  top: 608px;
+}
+.noticias {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 322px;
+  top: 608px;
+}
+.contato {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 551px;
+  top: 608px;
+}
+.rectangle-8 {
+  background: rgba(191, 219, 254, 0.67);
+  width: 660px;
+  height: 150px;
+  position: absolute;
+  left: 23px;
+  top: 696px;
+  box-shadow: var(
+    --teste10-10-10-box-shadow,
+    10px 10px 10px 0px rgba(0, 0, 0, 0.25)
+  );
+}
+.rectangle-9 {
+  background: rgba(191, 219, 254, 0.67);
+  width: 660px;
+  height: 150px;
+  position: absolute;
+  left: 20px;
+  top: 903px;
+  box-shadow: var(
+    --teste10-10-10-box-shadow,
+    10px 10px 10px 0px rgba(0, 0, 0, 0.25)
+  );
+}
+.rectangle-10 {
+  background: rgba(191, 219, 254, 0.67);
+  width: 660px;
+  height: 200px;
+  position: absolute;
+  left: 20px;
+  top: 1119px;
+  box-shadow: var(
+    --teste10-10-10-box-shadow,
+    10px 10px 10px 0px rgba(0, 0, 0, 0.25)
+  );
+}
+.frame {
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  left: 560px;
+  top: 43px;
+  overflow: visible;
+}
+.bem-vindo-a-ao-aplicativo-de-cursos-da-rea-de-tecnologia-da-informa-o-na-qual-ir-aprender-sobre-as-tecnologias-emergentes-do-mercado-de-trabalho-aqui-voc-ira-encontrar-cursos-sobre-programa-o-redes-design-projetos-engenharia-de-software-inteligencia-artificial-e-muito-mais-explore-os-links-e-navegue-conosco-nesta-jornada-de-aprendizado {
+  color: #374151;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 376px;
+  top: 270px;
+  width: 291px;
+  height: 240px;
+}
+.o-que-tecnologia-da-informa-o-a-tecnologia-da-informa-o-ti-um-dos-pilares-fundamentais-da-era-digital-desempenhando-um-papel-estrat-gico-na-inova-o-automa-o-e-otimiza-o-de-processos-em-empresas-e-na-sociedade {
+  color: #374151;
+  text-align: left;
+  position: absolute;
+  left: 234px;
+  top: 701px;
+  width: 446px;
+  height: 102px;
+}
+.o-que-tecnologia-da-informa-o-a-tecnologia-da-informa-o-ti-um-dos-pilares-fundamentais-da-era-digital-desempenhando-um-papel-estrat-gico-na-inova-o-automa-o-e-otimiza-o-de-processos-em-empresas-e-na-sociedade-span {
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.o-que-tecnologia-da-informa-o-a-tecnologia-da-informa-o-ti-um-dos-pilares-fundamentais-da-era-digital-desempenhando-um-papel-estrat-gico-na-inova-o-automa-o-e-otimiza-o-de-processos-em-empresas-e-na-sociedade-span2 {
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.roadmap-para-aprender-programa-o-o-caminho-certo-para-se-tornar-um-programador-um-roadmap-define-quais-habilidades-e-tecnologias-devem-ser-aprendidas-primeiro-organizando-o-conhecimento-quando-algu-m-come-a-a-estudar-programa-o-sem-um-roteiro-h-grandes-chances-de-pular-etapas-importantes-ou-focar-em-conte-dos-avan-ados-sem-ter-uma-base-s-lida {
+  color: #374151;
+  text-align: left;
+  position: absolute;
+  left: 232px;
+  top: 1124px;
+  width: 395px;
+  height: 159px;
+}
+.roadmap-para-aprender-programa-o-o-caminho-certo-para-se-tornar-um-programador-um-roadmap-define-quais-habilidades-e-tecnologias-devem-ser-aprendidas-primeiro-organizando-o-conhecimento-quando-algu-m-come-a-a-estudar-programa-o-sem-um-roteiro-h-grandes-chances-de-pular-etapas-importantes-ou-focar-em-conte-dos-avan-ados-sem-ter-uma-base-s-lida-span {
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.roadmap-para-aprender-programa-o-o-caminho-certo-para-se-tornar-um-programador-um-roadmap-define-quais-habilidades-e-tecnologias-devem-ser-aprendidas-primeiro-organizando-o-conhecimento-quando-algu-m-come-a-a-estudar-programa-o-sem-um-roteiro-h-grandes-chances-de-pular-etapas-importantes-ou-focar-em-conte-dos-avan-ados-sem-ter-uma-base-s-lida-span2 {
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.image-3 {
+  width: 202px;
+  height: 200px;
+  position: absolute;
+  left: 20px;
+  top: 1119px;
+  object-fit: cover;
+}
+.image-1 {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  left: 23px;
+  top: 697px;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+.image-2 {
+  width: 202px;
+  height: 150px;
+  position: absolute;
+  left: 21px;
+  top: 904px;
+  object-fit: cover;
+}
+.rectangle-11 {
+  background: #000000;
+  border-radius: 30px;
+  width: 117px;
+  height: 25px;
+  position: absolute;
+  left: 232px;
+  top: 1023px;
+}
+.o-que-linguagem-portugol-guia-definitivo-o-primeiro-passo-no-aprendizado-de-programa-o-dominar-o-que-chamamos-de-l-gica-uma-das-ferramentas-mais-utilizadas-para-ensinar-l-gica-de-programa-o-a-linguagem-portugol {
+  color: #374151;
+  text-align: left;
+  position: absolute;
+  left: 234px;
+  top: 908px;
+  width: 395px;
+  height: 108px;
+}
+.o-que-linguagem-portugol-guia-definitivo-o-primeiro-passo-no-aprendizado-de-programa-o-dominar-o-que-chamamos-de-l-gica-uma-das-ferramentas-mais-utilizadas-para-ensinar-l-gica-de-programa-o-a-linguagem-portugol-span {
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.o-que-linguagem-portugol-guia-definitivo-o-primeiro-passo-no-aprendizado-de-programa-o-dominar-o-que-chamamos-de-l-gica-uma-das-ferramentas-mais-utilizadas-para-ensinar-l-gica-de-programa-o-a-linguagem-portugol-span2 {
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.saiba-mais {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 250px;
+  top: 1026px;
+}
+.rectangle-13 {
+  background: #000000;
+  border-radius: 30px;
+  width: 117px;
+  height: 25px;
+  position: absolute;
+  left: 232px;
+  top: 1290px;
+}
+.saiba-mais2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 250px;
+  top: 1293px;
+}
+.rectangle-12 {
+  background: #000000;
+  border-radius: 30px;
+  width: 117px;
+  height: 25px;
+  position: absolute;
+  left: 232px;
+  top: 810px;
+}
+.saiba-mais3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 250px;
+  top: 813px;
+}
+.dall-e-2025-03-26-14-56-35-uma-imagem-moderna-e-vibrante-representando-cursos-de-tecnologia-da-informa-o-a-ilustra-o-inclui-estudantes-de-diversas-idades-e-g-neros-em-uma-sal-1 {
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 20px;
+  top: 251px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.image-5 {
+  border-radius: 1000px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 44px;
+  top: 38px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.rectangle-14 {
+  background: #2a2a40;
+  width: 700px;
+  height: 91px;
+  position: absolute;
+  left: 0px;
+  top: 1369px;
+}
+.criado-por-gustavo-porto {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 294px;
+  top: 1396px;
+}

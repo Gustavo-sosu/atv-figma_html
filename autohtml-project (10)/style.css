@@ -1,0 +1,125 @@
+.link-3-curso,
+.link-3-curso * {
+  box-sizing: border-box;
+}
+.link-3-curso {
+  background: #1e3a8a;
+  height: 840px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-15 {
+  background: #bfdbfe;
+  width: 410px;
+  height: 408px;
+  position: absolute;
+  left: 290px;
+  top: 228px;
+}
+.um-roadmap-define-quais-habilidades-e-tecnologias-devem-ser-aprendidas-primeiro-organizando-o-conhecimento-quando-algu-m-come-a-a-estudar-programa-o-sem-um-roteiro-h-grandes-chances-de-pular-etapas-importantes-ou-focar-em-conte-dos-avan-ados-sem-ter-uma-base-s-lida-a-programa-o-tem-v-rias-reas-como-desenvolvimento-web-mobile-e-ci-ncia-de-dados-um-roadmap-ajuda-a-escolher-o-caminho-mais-adequado-para-o-seu-objetivo-quem-deseja-trabalhar-com-sites-por-exemplo-precisa-aprender-html-css-e-java-script-antes-de-partir-para-frameworks-mais-avan-ados-j-quem-quer-trabalhar-com-banco-de-dados-deve-come-ar-entendendo-sql-e-modelagem-de-dados-antes-de-conhecer-outras-ferramentas {
+  color: #374151;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 306px;
+  top: 238px;
+  width: 385px;
+  height: 281px;
+}
+.rectangle-12 {
+  background: #000000;
+  border-radius: 30px;
+  width: 117px;
+  height: 25px;
+  position: absolute;
+  left: 574px;
+  top: 598px;
+}
+.voltar {
+  color: #1e3a8a;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 610px;
+  top: 601px;
+}
+.rectangle-3 {
+  background: #bfdbfe;
+  width: 700px;
+  height: 220px;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+}
+.ol-fulano {
+  color: #374151;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 169px;
+  top: 118px;
+  width: 150px;
+  height: 44px;
+}
+.seja-bem-vindos-a-plataforma-de-cursos {
+  color: #374151;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 169px;
+  top: 162px;
+  width: 466px;
+  height: 45px;
+}
+.frame {
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  left: 574px;
+  top: 42px;
+  overflow: visible;
+}
+.image-5 {
+  border-radius: 1000px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.image-3 {
+  width: 243px;
+  height: 182px;
+  position: absolute;
+  left: 18px;
+  top: 269px;
+  object-fit: cover;
+}
+.rectangle-17 {
+  background: #2a2a40;
+  width: 700px;
+  height: 91px;
+  position: absolute;
+  left: 0px;
+  top: 749px;
+}
+.criado-por-gustavo-porto {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 294px;
+  top: 776px;
+}

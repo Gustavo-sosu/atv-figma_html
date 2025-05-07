@@ -1,0 +1,251 @@
+.contato,
+.contato * {
+  box-sizing: border-box;
+}
+.contato {
+  background: #7dd3fc;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  height: 1460px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-2 {
+  background: #bfdbfe;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 363px;
+  top: 350px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-3 {
+  background: #bfdbfe;
+  width: 700px;
+  height: 220px;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+.rectangle-1 {
+  background: #bfdbfe;
+  width: 700px;
+  height: 119px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ol-fulano {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 170px;
+  top: 119px;
+  width: 150px;
+  height: 44px;
+}
+.seja-bem-vindos-a-ao-informatitchology {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 170px;
+  top: 171px;
+  width: 414px;
+  height: 38px;
+}
+.frame {
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  left: 560px;
+  top: 43px;
+  overflow: visible;
+}
+.informa-es {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 379px;
+  top: 364px;
+  width: 291px;
+  height: 180px;
+}
+.rectangle-17 {
+  background: #bfdbfe;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 660px;
+  height: 222px;
+  position: absolute;
+  left: 20px;
+  top: 1117px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.informa-es2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 53px;
+  top: 1127px;
+  width: 601px;
+  height: 125px;
+}
+.rectangle-15 {
+  background: #bfdbfe;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 20px;
+  top: 766px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.informa-es3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 46px;
+  top: 780px;
+  width: 291px;
+  height: 180px;
+}
+.rectangle-16 {
+  background: #bfdbfe;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 365px;
+  top: 766px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.informa-es4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 381px;
+  top: 780px;
+  width: 291px;
+  height: 180px;
+}
+.dall-e-2025-03-26-14-56-35-uma-imagem-moderna-e-vibrante-representando-cursos-de-tecnologia-da-informa-o-a-ilustra-o-inclui-estudantes-de-diversas-idades-e-g-neros-em-uma-sal-1 {
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: 20px;
+  top: 350px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.image-5 {
+  border-radius: 1000px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 44px;
+  top: 38px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.rectangle-152 {
+  background: #facc15;
+  border-radius: 30px;
+  width: 177px;
+  height: 34px;
+  position: absolute;
+  left: 35px;
+  top: 256px;
+}
+.rectangle-162 {
+  background: #facc15;
+  border-radius: 30px;
+  width: 177px;
+  height: 34px;
+  position: absolute;
+  left: 261px;
+  top: 256px;
+}
+.rectangle-172 {
+  border-radius: 0px;
+  width: 177px;
+  height: 34px;
+  position: absolute;
+  left: 490px;
+  top: 256px;
+  overflow: visible;
+}
+.curso {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 98px;
+  top: 264px;
+}
+.noticias {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 319px;
+  top: 264px;
+}
+.contato2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 548px;
+  top: 264px;
+}
+.rectangle-153 {
+  background: #6e6792;
+  width: 700px;
+  height: 91px;
+  position: absolute;
+  left: 0px;
+  top: 1369px;
+}
+.criado-por-gustavo-porto {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 294px;
+  top: 1396px;
+}
