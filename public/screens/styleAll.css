@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;  /* 100% da altura da viewport */
+  width: 100vw;   /* 100% da largura da viewport */
+  display: flex;
+  align-items: center;      /* Centraliza verticalmente */
+  background-color: #1e3a8a;
+}
