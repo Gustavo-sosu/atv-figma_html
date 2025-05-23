@@ -1,127 +1,107 @@
 
 
-/*.login,
-.login * {
-  box-sizing: border-box;
+.cards {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
-.login {
-  background: #1e3a8a;
-  border-style: solid;
-  border-color: #374151;
-  border-width: 1px;
-  height: 830px;
-  position: relative;
+
+.card {
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 900px;
+  height: auto; /* ❗ para que cresça conforme o conteúdo */
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-.login2 {
+
+.cadastroText {
   color: #ffffff;
-  text-align: left;
   font-family: "Inter-Regular", sans-serif;
   font-size: 75px;
-  font-weight: 400;
-  position: absolute;
-  left: 253px;
-  top: 256px;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.rectangle-18 {
+
+.campos {
   background: #d9d9d9;
-  width: 393px;
+  width: 80%;
+  max-width: 700px;
   height: 45px;
-  position: absolute;
-  left: 154px;
-  top: 405px;
+  padding: 10px;
+  margin: 20px auto 0 auto;
+  display: block;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
 }
-.rectangle-19 {
-  background: #d9d9d9;
-  width: 393px;
-  height: 45px;
-  position: absolute;
-  left: 154px;
-  top: 487px;
-}
-.nome-do-usuario {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  position: absolute;
-  left: 170px;
-  top: 410px;
-}
-.esqueci-a-senha {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 439px;
-  top: 555px;
-}
-.n-o-tem-conta-fa-a-seu-cadastro {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 150px;
-  top: 725px;
-}
-.lembre-se {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 155px;
-  top: 561px;
-}
-.senha {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  position: absolute;
-  left: 170px;
-  top: 492px;
-}
-.rectangle-20 {
+
+.btn-all {
   background: #000000;
-  width: 244px;
-  height: 54px;
-  position: absolute;
-  left: 228px;
-  top: 613px;
-}
-.entrar {
+  width: 60%;
+  max-width: 207px;
+  height: 44px;
+  text-align: center;
+  margin: 30px auto;
   color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 35px;
-  font-weight: 400;
-  position: absolute;
-  left: 300px;
-  top: 619px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
 }
-.rectangle-21 {
-  background: #d9d9d9;
-  width: 22px;
-  height: 23px;
-  position: absolute;
-  left: 122px;
-  top: 564px;
-  aspect-ratio: 22/23;
+
+.logo-inicial {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
-.image-5 {
-  border-radius: 1000px;
-  width: 169px;
-  height: 169px;
-  position: absolute;
-  left: 270px;
-  top: 58px;
-  object-fit: cover;
-  aspect-ratio: 1;
+
+.msg1 {
+  color: #ffffff;
+  display: flex;
+  flex: 2;
+  justify-content: center;
+}
+
+/* 🔁 Responsividade com media queries */
+@media (max-width: 768px) {
+  .cadastroText {
+    font-size: 48px;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .campos {
+    width: 90%;
+  }
+
+  .btn-all {
+    width: 70%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cadastroText {
+    font-size: 36px;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .campos {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  .btn-all {
+    font-size: 1rem;
+    width: 80%;
+  }
 }
