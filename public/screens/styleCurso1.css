@@ -69,43 +69,25 @@
   font-size: 30px;
 }
 
-/* Cards */
-.cards {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+.curso-info {
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(45,35,96,0.10);
+  padding: 32px 40px;
+  gap: 32px;
+  max-width: 800px;
+  margin: 40px auto;
+  color: #1b1b32;
 }
 
-.card {
-  background-color: #cfc4ed;
-  color: #000;
-  padding: 1rem;
-  border-radius: 10px;
-}
-
-.card img {
-  width: 400px;
-  border-radius: 8px;
-}
-
-.card h3 {
-  margin-top: 0.5rem;
-  font-size: 35px  ;
-}
-
-.card p {
-  margin-top: 0.3rem;
-  font-size: 20px;
-}
-
-.card button {
-  margin-top: 0.7rem;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  font-weight: bold;
+.curso-img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(45,35,96,0.08);
 }
 
 /* Rodapé */
