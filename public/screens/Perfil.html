@@ -18,16 +18,8 @@
       <button class="sair-btn" onclick="window.location.href='Login.html'">Sair</button>
     </div>
   </div>
+  
   <script>
-  // Salva o histórico de páginas visitadas
-  document.addEventListener('DOMContentLoaded', function() {
-    const ref = document.referrer;
-    if (ref) {
-      let historico = JSON.parse(sessionStorage.getItem('historicoPaginas') || '[]');
-      historico.push(ref);
-      sessionStorage.setItem('historicoPaginas', JSON.stringify(historico));
-    }
-  });
 
   function voltarPagina() {
     if (window.history.length > 1) {
