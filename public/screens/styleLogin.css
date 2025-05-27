@@ -1,10 +1,10 @@
-
-
 .cards {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
+  padding: 1rem;
 }
 
 .card {
@@ -12,7 +12,7 @@
   border-radius: 12px;
   width: 90%;
   max-width: 900px;
-  height: auto; /* ❗ para que cresça conforme o conteúdo */
+  height: auto;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -57,7 +57,8 @@
   max-width: 200px;
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 20px;
+  display: block;
 }
 
 .msg1 {
@@ -65,9 +66,17 @@
   display: flex;
   flex: 2;
   justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1rem;
 }
 
-/* 🔁 Responsividade com media queries */
+.txtLink {
+  color: #000;
+  text-decoration: none;
+}
+
+/* 🔁 Responsividade */
 @media (max-width: 768px) {
   .cadastroText {
     font-size: 48px;
@@ -103,5 +112,10 @@
   .btn-all {
     font-size: 1rem;
     width: 80%;
+  }
+
+  .msg1 {
+    font-size: 0.95rem;
+    padding: 0 10px;
   }
 }

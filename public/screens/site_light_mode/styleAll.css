@@ -1,0 +1,5 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial, sans-serif;background:#7DD3FC;color:#000;min-height:100vh}
+.container{margin:0 auto}
+button{cursor:pointer;background:#FACC15;color:#000;border:none;border-radius:6px;padding:.5rem 1rem;font-weight:bold}
+button:hover{filter:brightness(1.1)}

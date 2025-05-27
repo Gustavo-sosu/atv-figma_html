@@ -116,3 +116,96 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+@media (max-width: 1024px) {
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .logo, .user-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  .menu button {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .intro img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .intro p {
+    font-size: 1.1em;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card h3 {
+    font-size: 1.2em;
+    margin-top: 0.7rem;
+  }
+
+  .card p {
+    font-size: 1em;
+  }
+
+  .card button {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo, .user-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .intro p {
+    font-size: 1em;
+    padding: 0.8rem;
+  }
+
+  .card h3 {
+    font-size: 1.1em;
+  }
+
+  .card p {
+    font-size: 0.95em;
+  }
+
+  .card button {
+    font-size: 0.95em;
+  }
+}

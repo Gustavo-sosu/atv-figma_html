@@ -1,125 +1,235 @@
-.link-3-curso,
-.link-3-curso * {
-  box-sizing: border-box;
+.header {
+  background-color: #2b2d42;
+  color: #fff;
+  padding: 1rem;
 }
-.link-3-curso {
-  background: #1e3a8a;
-  height: 840px;
-  position: relative;
-  overflow: hidden;
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.rectangle-15 {
-  background: #bfdbfe;
-  width: 410px;
-  height: 408px;
-  position: absolute;
-  left: 290px;
-  top: 228px;
-}
-.um-roadmap-define-quais-habilidades-e-tecnologias-devem-ser-aprendidas-primeiro-organizando-o-conhecimento-quando-algu-m-come-a-a-estudar-programa-o-sem-um-roteiro-h-grandes-chances-de-pular-etapas-importantes-ou-focar-em-conte-dos-avan-ados-sem-ter-uma-base-s-lida-a-programa-o-tem-v-rias-reas-como-desenvolvimento-web-mobile-e-ci-ncia-de-dados-um-roadmap-ajuda-a-escolher-o-caminho-mais-adequado-para-o-seu-objetivo-quem-deseja-trabalhar-com-sites-por-exemplo-precisa-aprender-html-css-e-java-script-antes-de-partir-para-frameworks-mais-avan-ados-j-quem-quer-trabalhar-com-banco-de-dados-deve-come-ar-entendendo-sql-e-modelagem-de-dados-antes-de-conhecer-outras-ferramentas {
-  color: #374151;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  position: absolute;
-  left: 306px;
-  top: 238px;
-  width: 385px;
-  height: 281px;
-}
-.rectangle-12 {
-  background: #000000;
-  border-radius: 30px;
-  width: 117px;
-  height: 25px;
-  position: absolute;
-  left: 574px;
-  top: 598px;
-}
-.voltar {
-  color: #1e3a8a;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 610px;
-  top: 601px;
-}
-.rectangle-3 {
-  background: #bfdbfe;
-  width: 700px;
-  height: 220px;
-  position: absolute;
-  left: 0px;
-  top: -2px;
-}
-.ol-fulano {
-  color: #374151;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 169px;
-  top: 118px;
-  width: 150px;
-  height: 44px;
-}
-.seja-bem-vindos-a-plataforma-de-cursos {
-  color: #374151;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 169px;
-  top: 162px;
-  width: 466px;
-  height: 45px;
-}
-.frame {
-  width: 95px;
-  height: 95px;
-  position: absolute;
-  left: 574px;
-  top: 42px;
-  overflow: visible;
-}
-.image-5 {
-  border-radius: 1000px;
+
+.logo, .user-icon {
   width: 100px;
   height: 100px;
-  position: absolute;
-  left: 18px;
-  top: 18px;
+}
+
+.user {
+  text-align: center;
+  line-height: 1.3;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.menu button {
+  background-color: #1b1b32;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.main-content {
+  padding: 2rem 1rem;
+  color: #fff;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.intro img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.intro p {
+  flex: 1;
+  min-width: 250px;
+  background-color: #394867;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.curso-detalhe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(45,35,96,0.10);
+  padding: 72px 40px 32px 40px; 
+  gap: 32px;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.curso-img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: -80px;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.curso-img {
+  width: 550px;
+  height: 380px;
   object-fit: cover;
-  aspect-ratio: 1;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(45,35,96,0.15);
+  border: 6px solid #fff;
+  position: relative;
+  z-index: 2;
 }
-.image-3 {
-  width: 243px;
-  height: 182px;
-  position: absolute;
-  left: 18px;
-  top: 269px;
-  object-fit: cover;
+
+.curso-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-.rectangle-17 {
-  background: #2a2a40;
-  width: 700px;
-  height: 91px;
-  position: absolute;
-  left: 0px;
-  top: 749px;
+
+.curso-info h3 {
+  margin: 0 0 8px 0;
+  color: #2d2360;
+  font-size: 1.3em;
 }
-.criado-por-gustavo-porto {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  position: absolute;
-  left: 294px;
-  top: 776px;
+
+.curso-info p {
+  color: #4d4d6a;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0 0 12px 0;
+}
+
+.voltar-btn {
+  align-self: flex-end;
+  background: #2d2360;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.voltar-btn:hover {
+  background: #4d3ca6;
+}
+
+footer {
+  background-color: #1b1b32;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  .menu button {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .curso-img {
+    width: 100%;
+    height: auto;
+    max-width: 95%;
+  }
+
+  .curso-detalhe {
+    padding: 48px 20px;
+    margin: 20px;
+  }
+
+  .curso-info h3 {
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .curso-info p {
+    font-size: 0.95em;
+    text-align: justify;
+  }
+
+  .voltar-btn {
+    align-self: center;
+    width: 100%;
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo, .user-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .curso-detalhe {
+    padding: 32px 16px;
+  }
+
+  .curso-info h3 {
+    font-size: 1em;
+  }
+
+  .curso-info p {
+    font-size: 0.9em;
+  }
+
+  .voltar-btn {
+    font-size: 0.95em;
+  }
+}
+@media (max-width: 480px) {
+  .intro p {
+    font-size: 22px;
+    padding: 0.8rem;
+  }
+
+  .menu button {
+    width: 100%;
+  }
+
+  .card h3 {
+    font-size: 22px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
 }
