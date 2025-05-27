@@ -1,132 +1,192 @@
-.conf,
-.conf * {
-  box-sizing: border-box;
-}
 .conf {
+  min-height: 100vh;
   background: #1e3a8a;
-  border-style: solid;
-  border-color: #374151;
-  border-width: 1px;
-  height: 974px;
-  position: relative;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
 }
-.rectangle-18 {
-  background: #bfdbfe;
-  opacity: 0.2;
-  width: 608px;
-  height: 517px;
-  position: absolute;
-  left: 47px;
-  top: 211px;
+
+.configura-o {
+  color: #000;
+  font-size: 60px;
+  font-family: "Inter", Arial, sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 100%;
 }
-.rectangle-16 {
+
+form {
+  background: rgba(191, 219, 254, 0.20);
+  border-radius: 18px;
+  padding: 48px 40px 32px 40px;
+  box-shadow: 0 4px 24px rgba(45,35,96,0.10);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  min-width: 400px;
+  max-width: 480px;
+}
+
+label {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Inter", Arial, sans-serif;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"] {
+  background: #d9d9d9;
+  border: none;
+  border-radius: 8px;
+  height: 45px;
+  font-size: 22px;
+  padding: 0 16px;
+  color: #222;
+  font-family: "Inter", Arial, sans-serif;
+  margin-bottom: 16px;
+}
+
+.modo-claro {
   background: #7dd3fc;
   border-radius: 30px;
-  width: 190px;
-  height: 59px;
-  position: absolute;
-  left: 256px;
-  top: 499px;
-}
-.rectangle-182 {
-  background: #d9d9d9;
-  width: 495px;
-  height: 45px;
-  position: absolute;
-  left: 111px;
-  top: 282px;
-}
-.rectangle-19 {
-  background: #d9d9d9;
-  width: 495px;
-  height: 45px;
-  position: absolute;
-  left: 111px;
-  top: 388px;
-}
-.nome-do-usuario {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  color: #000;
   font-size: 30px;
-  font-weight: 400;
-  position: absolute;
-  left: 73px;
-  top: 226px;
+  font-family: "Inter", Arial, sans-serif;
+  padding: 10px 40px;
+  border: none;
+  margin: 0 auto 16px auto;
+  display: block;
+  cursor: pointer;
+  transition: background 0.2s;
 }
-.email {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  position: absolute;
-  left: 73px;
-  top: 339px;
+.modo-claro:hover {
+  background: #bae6fd;
 }
-.modo-claro {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  position: absolute;
-  left: 269px;
-  top: 510px;
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 16px;
 }
-.configura-o {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  position: absolute;
-  left: 149px;
-  top: 78px;
-}
-.rectangle-33 {
-  background: rgba(217, 217, 217, 0.5);
-  width: 439px;
-  height: 98px;
-  position: absolute;
-  left: 50%;
-  translate: -50%;
-  top: 612px;
-}
-.rectangle-34 {
-  background: #d9d9d9;
-  width: 151px;
-  height: 45px;
-  position: absolute;
-  left: 153px;
-  top: 638px;
-}
+
 .cancelar {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  background: #d9d9d9;
+  color: #000;
   font-size: 25px;
-  font-weight: 400;
-  position: absolute;
-  left: 176px;
-  top: 645px;
-}
-.rectangle-35 {
-  background: #000000;
+  font-family: "Inter", Arial, sans-serif;
+  border: none;
+  border-radius: 8px;
   width: 151px;
   height: 45px;
-  position: absolute;
-  left: 384px;
-  top: 639px;
+  cursor: pointer;
+  transition: background 0.2s;
 }
+.cancelar:hover {
+  background: #f3f4f6;
+}
+
 .salvar {
-  color: #ffffff;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
+  background: #000;
+  color: #fff;
   font-size: 25px;
-  font-weight: 400;
-  position: absolute;
-  left: 423px;
-  top: 646px;
+  font-family: "Inter", Arial, sans-serif;
+  border: none;
+  border-radius: 8px;
+  width: 151px;
+  height: 45px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.salvar:hover {
+  background: #222;
+}
+
+/* RESPONSIVO */
+@media (max-width: 1024px) {
+  .conf {
+    padding-top: 24px;
+  }
+
+  .configura-o {
+    font-size: 42px;
+    margin-bottom: 32px;
+  }
+
+  form {
+    width: 95%;
+    min-width: unset;
+    max-width: unset;
+    padding: 40px 28px 28px 28px;
+  }
+
+  label {
+    font-size: 24px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    font-size: 18px;
+    height: 42px;
+  }
+
+  .modo-claro {
+    font-size: 22px;
+    padding: 10px 32px;
+  }
+
+  .botoes {
+    gap: 24px;
+  }
+
+  .cancelar,
+  .salvar {
+    font-size: 20px;
+    width: 140px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 600px) {
+  .configura-o {
+    font-size: 32px;
+  }
+
+  form {
+    width: 100vw;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 32px 20px;
+    margin: 0;
+  }
+
+  label {
+    font-size: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    font-size: 16px;
+    height: 40px;
+  }
+
+  .modo-claro {
+    font-size: 18px;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .botoes {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .cancelar,
+  .salvar {
+    width: 100%;
+    font-size: 18px;
+  }
 }

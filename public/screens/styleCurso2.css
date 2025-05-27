@@ -1,129 +1,217 @@
-.link-2-curso,
-.link-2-curso * {
-  box-sizing: border-box;
+.header {
+  background-color: #2b2d42;
+  color: #fff;
+  padding: 1rem;
 }
-.link-2-curso {
-  background: #1e3a8a;
-  height: 840px;
-  position: relative;
-  overflow: hidden;
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.rectangle-15 {
-  background: #bfdbfe;
-  width: 410px;
-  height: 408px;
-  position: absolute;
-  left: 290px;
-  top: 228px;
-}
-.portugol-uma-linguagem-de-programa-o-did-tica-que-utiliza-uma-sintaxe-baseada-na-l-ngua-portuguesa-seu-principal-objetivo-ensinar-l-gica-de-programa-o-para-iniciantes-eliminando-a-complexidade-de-linguagens-como-python-java-ou-c-ele-funciona-como-um-pseudoc-digo-algoritmo-estruturado-ou-seja-um-modelo-simplificado-de-c-digo-que-permite-a-escrita-de-algoritmos-de-forma-estruturada-e-compreens-vel-sem-a-necessidade-de-aprender-uma-sintaxe-rigorosa-embora-n-o-seja-uma-linguagem-de-programa-o-propriamente-dita-o-portugol-uma-excelente-ferramenta-para-desenvolver-o-pensamento-l-gico-sendo-amplamente-utilizado-no-ensino-de-programa-o {
-  color: #020202;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  position: absolute;
-  left: 306px;
-  top: 238px;
-  width: 385px;
-  height: 281px;
-}
-.rectangle-12 {
-  background: #000000;
-  border-radius: 30px;
-  width: 117px;
-  height: 25px;
-  position: absolute;
-  left: 574px;
-  top: 598px;
-}
-.voltar {
-  color: #1e3a8a;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 610px;
-  top: 601px;
-}
-.rectangle-3 {
-  background: #bfdbfe;
-  width: 700px;
-  height: 220px;
-  position: absolute;
-  left: 0px;
-  top: -2px;
-}
-.ol-fulano {
-  color: #020202;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 169px;
-  top: 118px;
-  width: 150px;
-  height: 44px;
-}
-.seja-bem-vindos-a-plataforma-de-cursos {
-  color: #020202;
-  text-align: left;
-  font-family: "Inter-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 169px;
-  top: 162px;
-  width: 466px;
-  height: 45px;
-}
-.frame {
-  width: 95px;
-  height: 95px;
-  position: absolute;
-  left: 574px;
-  top: 42px;
-  overflow: visible;
-}
-.image-5 {
-  border-radius: 1000px;
+
+.logo, .user-icon {
   width: 100px;
   height: 100px;
-  position: absolute;
-  left: 18px;
-  top: 18px;
+}
+
+.user {
+  text-align: center;
+  line-height: 1.3;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.menu button {
+  background-color: #1b1b32;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.main-content {
+  padding: 2rem 1rem;
+  color: #fff;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.intro img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.intro p {
+  flex: 1;
+  min-width: 250px;
+  background-color: #394867;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.curso-detalhe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(45,35,96,0.10);
+  padding: 72px 40px 32px 40px; 
+  gap: 32px;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.curso-img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: -80px;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.curso-img {
+  width: 550px;
+  height: 380px;
   object-fit: cover;
-  aspect-ratio: 1;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(45,35,96,0.15);
+  border: 6px solid #fff;
+  position: relative;
+  z-index: 2;
 }
-.image-2 {
-  border-style: solid;
-  border-color: #374151;
-  border-width: 1px;
-  width: 243px;
-  height: 182px;
-  position: absolute;
-  left: 18px;
-  top: 263px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  object-fit: cover;
+
+.curso-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-.rectangle-16 {
-  background: #2a2a40;
-  width: 700px;
-  height: 91px;
-  position: absolute;
-  left: 0px;
-  top: 749px;
+
+.curso-info h3 {
+  margin: 0 0 8px 0;
+  color: #2d2360;
+  font-size: 1.3em;
 }
-.criado-por-gustavo-porto {
-  color: #000000;
-  text-align: left;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  position: absolute;
-  left: 294px;
-  top: 776px;
+
+.curso-info p {
+  color: #4d4d6a;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0 0 12px 0;
+}
+
+.voltar-btn {
+  align-self: flex-end;
+  background: #2d2360;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 28px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.voltar-btn:hover {
+  background: #4d3ca6;
+}
+
+footer {
+  background-color: #1b1b32;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  .menu button {
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .curso-img {
+    width: 100%;
+    height: auto;
+    max-width: 95%;
+  }
+
+  .curso-detalhe {
+    padding: 48px 20px;
+    margin: 20px;
+  }
+
+  .curso-info h3 {
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .curso-info p {
+    font-size: 0.95em;
+    text-align: justify;
+  }
+
+  .voltar-btn {
+    align-self: center;
+    width: 100%;
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo, .user-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .curso-detalhe {
+    padding: 32px 16px;
+  }
+
+  .curso-info h3 {
+    font-size: 1em;
+  }
+
+  .curso-info p {
+    font-size: 0.9em;
+  }
+
+  .voltar-btn {
+    font-size: 0.95em;
+  }
 }

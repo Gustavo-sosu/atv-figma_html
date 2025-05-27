@@ -1,55 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vars.css">
-  <link rel="stylesheet" href="./style.css">
-  
-  
-  <style>
-   a,
-   button,
-   input,
-   select,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   * {
-       box-sizing: border-box;
-       margin: 0;
-       padding: 0;
-       border: none;
-       text-decoration: none;
-       background: none;
-   
-       -webkit-font-smoothing: antialiased;
-   }
-   
-   menu, ol, ul {
-       list-style-type: none;
-       margin: 0;
-       padding: 0;
-   }
-   </style>
-  <title>Document</title>
+  <title>Perfil</title>
+  <link rel="stylesheet" href="styleAll.css">
+  <link rel="stylesheet" href="stylePerfil.css">
 </head>
 <body>
-  <div class="perfil">
-    <div class="rectangle-26"></div>
-    <img class="frame" src="frame0.svg" />
-    <div class="rectangle-27"></div>
-    <div class="editar-perfil">Editar Perfil</div>
-    <div class="rectangle-272"></div>
-    <div class="voltar">Voltar</div>
-    <div class="rectangle-28"></div>
-    <div class="configura-o">Configuração</div>
-    <div class="rectangle-273"></div>
-    <div class="sair">Sair</div>
+  <div class="perfil-container">
+    <div class="perfil-card">
+      <div class="perfil-foto">
+        <img src="../imgs/recurs/perfil.png" alt="Foto do usuário">
+      </div>
+      <button class="editar-btn" >Editar Perfil</button>
+      <div class="configuracao" onclick="window.location.href='conf.html'" style="cursor:pointer;">Configuração</div>
+      <button class="voltar-btn" onclick="voltarPagina()">Voltar</button>
+      <button class="sair-btn" onclick="window.location.href='Login.html'">Sair</button>
+    </div>
   </div>
-  
+  <script>
+  // Salva o histórico de páginas visitadas
+  document.addEventListener('DOMContentLoaded', function() {
+    const ref = document.referrer;
+    if (ref) {
+      let historico = JSON.parse(sessionStorage.getItem('historicoPaginas') || '[]');
+      historico.push(ref);
+      sessionStorage.setItem('historicoPaginas', JSON.stringify(historico));
+    }
+  });
+
+  function voltarPagina() {
+    if (window.history.length > 1) {
+      window.history.back();
+    } else {
+      window.location.href = 'Curso.html';
+    }
+  }
+  </script>
 </body>
 </html>
