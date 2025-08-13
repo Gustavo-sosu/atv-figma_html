@@ -20,14 +20,35 @@
   </div>
   
   <script>
+    // Salva a última página visitada
+    /*document.addEventListener('DOMContentLoaded', function() {
+      sessionStorage.setItem('ultimaPagina', document.referrer);
+    });
 
-  function voltarPagina() {
-    if (window.history.length > 1) {
-      window.history.back();
-    } else {
-      window.location.href = 'Curso.html';
+    function voltarPagina() {
+      const ultima = sessionStorage.getItem('ultimaPagina') || '';
+      if (ultima.includes('conf.html')) {
+        window.history.go(-2);
+      } else if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = 'Curso.html';
+      }
+    }*/
+   function voltarPagina() {
+        window.location.href = 'Curso.html'; // Redireciona para Curso.html se não houver histórico
     }
-  }
   </script>
+  <div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
 </body>
 </html>
