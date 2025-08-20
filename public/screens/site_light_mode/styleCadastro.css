@@ -1,9 +1,0 @@
-.cards{display:flex;justify-content:center;width:100%;padding:1rem}
-.card{background:#ffffff;width:90%;max-width:900px;padding:2rem;border-radius:12px;text-align:center;box-shadow:0 4px 12px rgba(0,0,0,.1)}
-.cadastroText{font-size:64px;margin-bottom:1rem;color:#1e3a8a}
-.campos{background:#e5e7eb;width:80%;max-width:700px;height:45px;padding:10px;margin:20px auto;border:none;border-radius:6px;font-size:1rem}
-.btn-all{width:60%;max-width:207px;height:44px;margin:30px auto}
-.logo-inicial{max-width:160px;margin:0 auto 1rem;display:block}
-.msg1{margin-top:1rem}
-@media(max-width:768px){.cadastroText{font-size:42px}.card{padding:1.5rem}}
-@media(max-width:480px){.cadastroText{font-size:32px}.campos{width:100%}}

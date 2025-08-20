@@ -40,3 +40,102 @@ button {
 #btn-top:hover {
   background: #374151;
 }
+
+.font-controls-fixed {
+  position: fixed;
+  right: 32px;
+  bottom: 100px; /* Fica acima do VLibras */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1100;
+}
+
+.font-controls-fixed button {
+  background: #5380fb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 22px;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(30,58,138,0.15);
+}
+.font-controls-fixed button:hover {
+  background: #374151;
+}
+
+.contraste-ativo {
+  background: #fff !important;
+  color: #111 !important;
+}
+.contraste-ativo body,
+.contraste-ativo .container,
+.contraste-ativo .perfil-card,
+.contraste-ativo .conf,
+.contraste-ativo form,
+.contraste-ativo input,
+.contraste-ativo label,
+.contraste-ativo button,
+.contraste-ativo .configura-o,
+.contraste-ativo .main-content,
+.contraste-ativo .card,
+.contraste-ativo .header,
+.contraste-ativo footer {
+  background: #111 !important;
+  color: #FFD600 !important;
+  border-color: #FFD600 !important;
+}
+
+.contraste-ativo input,
+.contraste-ativo textarea,
+.contraste-ativo select {
+  background: #222 !important;
+  color: #FFD600 !important;
+  border: 2px solid #FFD600 !important;
+}
+
+.contraste-ativo button,
+.contraste-ativo .btn,
+.contraste-ativo .sair-btn,
+.contraste-ativo .voltar-btn,
+.contraste-ativo .editar-btn,
+.contraste-ativo .modo-claro {
+  background: #FFD600 !important;
+  color: #111 !important;
+  border: 2px solid #FFD600 !important;
+  font-weight: bold;
+}
+
+.contraste-ativo a,
+.contraste-ativo a:visited {
+  color: #FFD600 !important;
+  text-decoration: underline;
+}
+
+.contraste-ativo .card,
+.contraste-ativo .perfil-foto,
+.contraste-ativo .info-card {
+  background: #222 !important;
+  color: #FFD600 !important;
+  border-color: #FFD600 !important;
+}
+
+.contraste-ativo #btn-top,
+.contraste-ativo .font-controls-fixed button {
+  background: #FFD600 !important;
+  color: #111 !important;
+  border: 2px solid #FFD600 !important;
+}
+
+.contraste-ativo #btn-top:hover,
+.contraste-ativo .font-controls-fixed button:hover {
+  background: #fff200 !important;
+  color: #111 !important;
+}
+
+.contraste-ativo ::placeholder {
+  color: #FFD600 !important;
+  opacity: 1;
+}

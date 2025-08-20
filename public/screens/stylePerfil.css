@@ -129,6 +129,38 @@
   color: #ffeaea;
 }
 
+/* Adicione ao final do stylePerfil.css para melhorar o contraste do botão Voltar */
+.contraste-ativo .voltar-btn {
+  background: #FFD600 !important;
+  color: #111 !important;
+  border: 2px solid #FFD600 !important;
+  font-weight: bold;
+  text-decoration: none !important;
+  box-shadow: 0 2px 8px rgba(255, 214, 0, 0.15);
+  border-radius: 8px;
+  padding: 14px 0 14px 0;
+  margin-top: 12px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.contraste-ativo .voltar-btn:hover {
+  background: #fff200 !important;
+  color: #111 !important;
+  text-decoration: underline !important;
+}
+
+/* Adicione ao final do stylePerfil.css para fundo em contraste */
+.contraste-ativo .perfil-container {
+  background: #111 !important;
+  background-image: none !important;
+}
+
+.contraste-ativo .perfil {
+  background: #111 !important;
+  border-color: #FFD600 !important;
+  box-shadow: none !important;
+}
+
 @media (max-width: 600px) {
   .perfil-card {
     width: 100vw;

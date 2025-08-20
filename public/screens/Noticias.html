@@ -82,6 +82,19 @@
 <script>
   new window.VLibras.Widget('https://vlibras.gov.br/app');
 </script>
-
+<script>
+  // Aplica contraste automaticamente se estiver salvo, exceto em login/cadastrar
+  document.addEventListener('DOMContentLoaded', function() {
+    const path = window.location.pathname.toLowerCase();
+    if (!path.includes('login.html') && !path.includes('cadastrar.html')) {
+      if (localStorage.getItem('contrasteAtivo') === 'true') {
+        document.body.classList.add('contraste-ativo');
+      }
+    } else {
+      // Remove contraste nessas páginas, se houver
+      document.body.classList.remove('contraste-ativo');
+    }
+  });
+</script>
 </body>
 </html>

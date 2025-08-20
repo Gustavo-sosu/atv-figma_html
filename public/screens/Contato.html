@@ -53,7 +53,50 @@
 <script>
   new window.VLibras.Widget('https://vlibras.gov.br/app');
 </script>
+<script>
+  // Função para ativar/desativar contraste e salvar no localStorage
+  function toggleContraste() {
+    if (document.body.classList.contains('contraste-ativo')) {
+      document.body.classList.remove('contraste-ativo');
+      localStorage.setItem('contrasteAtivo', 'false');
+    } else {
+      document.body.classList.add('contraste-ativo');
+      localStorage.setItem('contrasteAtivo', 'true');
+    }
+  }
 
+  // Aplica contraste automaticamente se estiver salvo, exceto em login/cadastrar
+  document.addEventListener('DOMContentLoaded', function() {
+    const path = window.location.pathname.toLowerCase();
+    if (!path.includes('login.html') && !path.includes('cadastrar.html')) {
+      if (localStorage.getItem('contrasteAtivo') === 'true') {
+        document.body.classList.add('contraste-ativo');
+      }
+    } else {
+      // Remove contraste nessas páginas, se houver
+      document.body.classList.remove('contraste-ativo');
+    }
+    // Adiciona evento ao botão se existir
+    const btn = document.querySelector('.modo-claro');
+    if (btn) {
+      btn.onclick = toggleContraste;
+    }
+  });
+</script>
+<script>
+  // Aplica contraste automaticamente se estiver salvo, exceto em login/cadastrar
+  document.addEventListener('DOMContentLoaded', function() {
+    const path = window.location.pathname.toLowerCase();
+    if (!path.includes('login.html') && !path.includes('cadastrar.html')) {
+      if (localStorage.getItem('contrasteAtivo') === 'true') {
+        document.body.classList.add('contraste-ativo');
+      }
+    } else {
+      // Remove contraste nessas páginas, se houver
+      document.body.classList.remove('contraste-ativo');
+    }
+  });
+</script>
   </div>
 </body>
 </html>
