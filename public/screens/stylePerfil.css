@@ -87,6 +87,16 @@
   font-family: 'Segoe UI', Arial, sans-serif;
   letter-spacing: 0.5px;
   font-weight: 500;
+  background: #fff;
+  border: none;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+/* Contraste */
+.contraste-ativo .configuracao {
+  background: #111 !important;
+  color: #FFD600 !important;
 }
 
 .voltar-btn {
