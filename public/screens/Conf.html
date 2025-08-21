@@ -28,9 +28,79 @@
     <div class="vw-plugin-top-wrapper"></div>
   </div>
 </div>
+
+  <div class="font-controls-fixed">
+  <button onclick="alterarFonte(1)">A+</button>
+  <button onclick="fontePadrao()">A</button>
+  <button onclick="alterarFonte(-1)">A-</button>
+</div>
+<script>
+  // Aplica o tamanho salvo ao carregar a página
+  function aplicarFonteSalva() {
+    const tamanhoSalvo = parseFloat(localStorage.getItem('tamanhoFonte')) || 16;
+    alterarFonte(0, true, tamanhoSalvo);
+  }
+
+  // Altera o tamanho da fonte de todos os textos relevantes
+  function alterarFonte(delta, setarDireto = false, valorDireto = 16) {
+    const textos = document.querySelectorAll(
+      'body, p, h1, h2, h3, h4, h5, h6, li, button, label, input, .info-card, .card, .main-content, .configura-o'
+    );
+    let atual = parseFloat(localStorage.getItem('tamanhoFonte')) || 16;
+    let novo = setarDireto ? valorDireto : atual + delta;
+    if (novo < 12) novo = 12;
+    if (novo > 50) novo = 50;
+    textos.forEach(function(el) {
+      el.style.fontSize = novo + "px";
+    });
+    localStorage.setItem('tamanhoFonte', novo);
+  }
+
+  // Botão para fonte padrão
+  function fontePadrao() {
+    localStorage.setItem('tamanhoFonte', 16);
+    // Remove o font-size inline para todos os elementos afetados
+    const textos = document.querySelectorAll(
+      'body, p, h1, h2, h3, h4, h5, h6, li, button, label, input, .info-card, .card, .main-content, .configura-o'
+    );
+    textos.forEach(function(el) {
+      el.style.fontSize = '';
+    });
+  }
+
+  // Aplica ao carregar a página
+  document.addEventListener('DOMContentLoaded', function() {
+    aplicarFonteSalva();
+  });
+
+  // Aplica contraste automaticamente se estiver salvo, exceto em login/cadastrar
+  document.addEventListener('DOMContentLoaded', function() {
+    const path = window.location.pathname.toLowerCase();
+    if (!path.includes('login.html') && !path.includes('cadastrar.html')) {
+      if (localStorage.getItem('contrasteAtivo') === 'true') {
+        document.body.classList.add('contraste-ativo');
+      }
+    } else {
+      document.body.classList.remove('contraste-ativo');
+    }
+  });
+</script>
 <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 <script>
   new window.VLibras.Widget('https://vlibras.gov.br/app');
+  function alterarFonte(delta) {
+        const main = document.querySelector('.main-content');
+        if (!main) return;
+        // Seleciona todos os elementos de texto dentro de main-content
+        const textos = main.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, button');
+        textos.forEach(function(el) {
+          let atual = parseFloat(window.getComputedStyle(el).fontSize) || 16;
+          let novo = atual + delta;
+          if (novo < 12) novo = 12;
+          if (novo > 50) novo = 50;
+          el.style.fontSize = novo + "px";
+        });
+      }
 </script>
 
 <script>
